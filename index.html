@@ -8,11 +8,20 @@
 <style>
     #image-1 {
         background-image: url(fondo-oscuro-degradado-formas-geometricas.png);
+        background-size: cover;
+    }
+</style>
+
+<style>
+    .blur {
+        background-color: #fafafa10;
+        backdrop-filter: blur(0.4rem);
+        -webkit-backdrop-filter: blur(0.4rem);
     }
 </style>
     
     <center>
-    <div style="width: 850px; height: 600px; background-color: rgb(255, 255, 255); border-radius: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"> 
+    <div class="blur" style="width: 850px; height: 600px; border-radius: 20px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);"> 
         <h1 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 400%; color: #000000;">Sign In</h1>
         <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial,; sans-serif; font-size: 200%; color: #1d1d1dc0; position: absolute; top: 15%; left: 30%;">Put Email and Password</h3>
         <input type="email" style="text-align: center; height: 40px; width: 265px; border-radius: 10px; background-color: lightgray; border: none; position: absolute; top: 35%; left: 34%;" placeholder="Email" required>
